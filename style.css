@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    width: 96%;
+    min-height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.header__logo {
+    padding: 1rem 2rem;
+}
+
+.header__nav-number {
+    display: flex;
+    gap: 15rem;
+    margin-top: 12px;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 1.1250em;
+    /* 18px */
+    gap: 0.66em;
+
+}
+
+.header__list {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.4s linear;
+}
+
+.header__number {
+    font-size: 1.1250em;
+
+}
+
+/* Header-end */
+
+/* Main-header */
+main {
+    margin-left: 2em;
+}
+
+.main_header {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.main__text {
+    display: flex;
+    width: 41.67%;
+    font-size: 4.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: s#212529;
+
+}
+
+.main_btn-project a {
+    font-size: 1.1250em;
+    color: #212529;
+    transition: 0.4s linear;
+    font-family: Roboto;
+}
+
+/* Main-header-end */
+
+/* Main-content */
+.main__content {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.content__text {
+    display: flex;
+    font-size: 1.2500em;
+    font-family: Roboto;
+    width: 30.9%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content_photo-1 {
+    display: flex;
+}
+
+.content_photo-2 {
+    display: flex;
+}
+
+/* Main-content-end */
+
+/* Main-info */
+.main__info {
+    display: flex;
+    margin-top: 8.33%;
+    justify-content: space-between;
+}
+
+.info__title {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    width: 39%;
+}
+
+.info__text {
+    display: flex;
+    flex-direction: column;
+    width: 47.15%;
+    font-family: Roboto;
+}
+
+.info__text p {
+    width: 67%;
+    margin-bottom: 16px;
+}
+
+aside {
+    margin-top: 44px;
+}
+
+.counter {
+    padding-bottom: 24px;
+    width: 25%;
+}
+
+.counter h3 {
+    font-size: 2.25em;
+}
+
+.info__text h2 {
+    display: none;
+    font-size: 1.75em;
+}
+
+/* Main-info-end */
+
+/* Work info */
+.main__info_work {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.work__text {
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.work__list {
+    width: 47.15%;
+}
+
+.work__list p {
+    width: 50.5%;
+    margin-bottom: 7%;
+}
+
+.p-text-none {
+    display: none;
+}
+
+.item h3 {
+    font-size: 2.25em;
+    width: 23%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 1.5em 0;
+}
+
+.item span {
+    justify-content: space-between;
+    width: 50%;
+}
+
+.item2 span {
+    justify-content: space-between;
+    width: 50%;
+}
+
+/* Work-info end */
+
+/* Galery */
+.main__galery {
+    margin-top: 9%;
+}
+
+.galery__text {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    margin-bottom: 2.5%;
+    justify-content: flex-start;
+}
+
+.photo {
+    padding: 15px 15px;
+    width: 450px
+}
+
+.galery__photo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Galery-end */
+
+/* Reviews */
+
+.reviews__title {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+    margin-bottom: 2.5%;
+
+}
+
+.reviews__block {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
+    width: 32%;
+}
+
+.img__block {
+    height: 40px;
+    margin-top: 14%;
+}
+
+.block_text {
+    text-align: center;
+}
+
+.block span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125em;
+    margin: 1.111em 0;
+}
+
+.block_text {
+    font-family: Roboto;
+    width: 78.3%;
+    text-align: center;
+    margin-bottom: 19%;
+}
+
+/* Reviews */
+
+/* Main-footer */
+.main__footer {
+    margin-top: 9.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__footer_text_feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.footer_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+
+}
+
+.feed {
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    line-height: 1.7rem;
+}
+
+.footer_text h2 {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 2.3%;
+}
+
+.footer_text p {
+    font-family: Roboto;
+}
+
+.btn-feedback {
+    width: 30%;
+    padding: 2%;
+    border-radius: 0.5rem;
+    transition: 0.4s linear;
+    margin-bottom: 2%;
+}
+
+/* Main-footer end */
+
+/* Footer */
+.footer__text {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 0 1%;
+}
+
+.footer__text a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.social a {
+    margin-left: 3rem;
+}
+
+/* HOVER */
+.header__list:hover {
+    color: orange
+}
+
+.main_btn-project a:hover {
+    color: orangered;
+}
+
+.btn-feedback:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.footer__text a:hover {
+    color: blue
+}
